@@ -1,0 +1,10 @@
+<p>Book was successfully created.</p>
+</br>
+<p>Title: <%= @book.title %></p>
+</br>
+<p>Body: <%= @book.body %></p>
+</br>
+<span><%= link_to 'Edit', edit_book_path(@book) %></span>
+<span>|</span>
+<%= link_to "Back", books_path %>
+<div class="author-case"></div>
